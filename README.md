@@ -8,3 +8,8 @@
 #Login with correct password and viewing home page
 ![](https://github.com/amol3793/NewsPaperSiteScraping/blob/master/NewsPaperSiteScraping.gif)
 
+#Register User:
+![](https://github.com/amol3793/NewsPaperSiteScraping/blob/master/NewsPaperSiteScraping2.gif)
+
+#protected home page and content page.(authorization)
+![](https://github.com/amol3793/NewsPaperSiteScraping/blob/master/NewsPaperSiteScraping3.gif)
