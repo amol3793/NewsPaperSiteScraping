@@ -6,5 +6,5 @@
 ###3.Finaly execute 'python manage.py runserver'
 
 #Login with correct password and viewing home page
-![](https://github.com/amol3793/NewsPaperSiteScraping/NewsPaperSiteScraping.gif)
+![](https://github.com/amol3793/NewsPaperSiteScraping/blob/master/NewsPaperSiteScraping.gif)
 
