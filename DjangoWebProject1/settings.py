@@ -2,7 +2,7 @@
 Django settings for DjangoWebProject1 project.
 """
 
-from os import path
+from os import environ, path
 PROJECT_ROOT = path.dirname(path.abspath(path.dirname(__file__)))
 
 DEBUG = True
@@ -91,8 +91,9 @@ STATICFILES_FINDERS = (
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
-# Make this unique, and don't share it with anybody.
-SECRET_KEY = 'n(bd1f1c%e8=_xad02x5qtfn%wgwpi492e$8_erx+d)!tpeoim'
+# Make this unique, and don't share it with anybody. Set DJANGO_SECRET_KEY
+# in production; the fallback below is for local development only.
+SECRET_KEY = environ.get('DJANGO_SECRET_KEY', 'dev-only-not-for-production')
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (

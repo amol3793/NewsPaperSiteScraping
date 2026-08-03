@@ -3,7 +3,8 @@
 ##Please Note:
 ###1.This app is made by using Visual Studio so some extra files are there.
 ###2.Please setup the environment using *_requirement.txt_* file.
-###3.Finaly execute 'python manage.py runserver'
+###3.(Optional) Set a DJANGO_SECRET_KEY environment variable for production use; a dev-only fallback is used if it's not set.
+###4.Finaly execute 'python manage.py runserver'
 
 #Login with correct password and viewing home page
 ![](https://github.com/amol3793/NewsPaperSiteScraping/blob/master/NewsPaperSiteScraping.gif)
